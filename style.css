@@ -1,0 +1,1285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+header .top{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    background-color: black;
+}
+.top span img{
+    padding-top: 5px;
+}
+header h1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+header nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    margin-top: 5px;
+    padding-bottom: 15px;
+
+}
+header nav a{
+    padding: 20px 30px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+article .top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    background-image: url(grass.jpg);
+    position: relative;
+
+}
+.left p{
+    font-size: 35px;
+    color: white;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: lavender;
+    position: relative;
+    gap: 20px;
+
+}
+.right p{
+    color: rgb(246, 86, 28);
+    font-size: 20px;
+}
+.right button{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+.right button:hover{
+    color: brown;
+    cursor: pointer;
+
+}
+article .middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 20px;
+    position: relative;
+
+}
+.first{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    position: relative;
+    gap: 30px;
+
+}
+.small{
+    position: absolute;
+    top: 0;
+    transform: translateX(-620%);
+
+}
+.first h3{
+    padding-top: px;
+    font-size: 20px;
+}
+.first p{
+    color: orangered;
+    position: absolute;
+    top: 30%;
+}
+.first h4{
+    color: orangered;
+    position: absolute;
+    bottom: 5%;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+article .last{
+    width: 1220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(office2.jpg);
+    margin: 10px 20px;
+    position: relative;
+    gap: 20px;
+}
+.small2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.last p{
+    color: white;
+    position: absolute;
+    left: 70%;
+}
+.last button{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    color: white;
+
+}
+.last button{
+    color: brown;
+    cursor: pointer;
+    background-color: lemonchiffon;
+}
+.last button:hover{
+    color: white;
+    background-color: brown;
+    
+}
+article .third{
+    width: 1220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 20px;
+    gap: 20px;
+    background-color: orange;
+
+}
+.third div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 30px;
+    position: relative;
+}
+.third h1{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.third p{
+    color: rgb(251, 212, 161);
+}
+.third button{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: orange;
+    align-self: flex-end;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(+900%);
+}
+.third button:hover{
+    color: brown;
+    background-color: blanchedalmond;
+
+}
+.banner3{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: flex-start;
+
+}
+article .left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 500px;
+    height: 200px;
+    padding: 10px 20px;
+    gap: 50px;
+    padding-left: 400px;
+    margin-bottom: 100px;
+}
+.left-side .one{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 250px;
+    gap: 30px;
+    border: 1px solid transparent;
+    background-color: lavender;
+    margin: 10px 40px;
+    padding: 0px 10px;
+    padding-left: 50px;
+
+    
+}
+.one img{
+    height: 100px;
+}
+
+article .details{
+    width: 500px;
+    padding-left: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid transparent;
+    background-color: lavender;
+    background-position: center center;
+    margin-right: 70px;
+    position: relative;
+    
+
+}
+.details h2{
+    color: orangered;
+    margin-top: 50px;
+
+}
+.details .titcat{
+    margin-bottom: 200px;
+}
+.titcat input{
+    border: 1px solid transparent;
+    width: 40%;
+    padding: 4px 0px;
+
+}
+.titcat input::placeholder{
+    color: black;
+    padding: 10px;
+
+}
+.titcat input:focus{
+    border-color: orangered;
+}
+.details .type{
+    position: absolute;
+    right: 0;
+    transform: translateX(-165%);
+}
+.type input{
+    width: 170%;
+    padding: 40px 0;
+    margin-top: 30px;
+    border: transparent;
+}
+.type input::placeholder{
+    padding: 10px;
+}
+.type input:focus{
+    border-color: orangered;
+}
+.details .upload{
+    margin: 40px 20px;
+
+}
+.upload .upload-btn{
+    border: none;
+    cursor: pointer;
+}
+.upload-btn:focus{
+    border-color: black;
+    transform: scale(1.3);
+    filter: grayscale(2);
+}
+.load:hover{
+    background-color: black;
+    color: aqua;
+}
+.upload .load{
+    border: none;
+    margin: 10px;
+    color: orangered;
+    cursor: pointer;
+
+}
+.upload .post{
+    position: absolute;
+    right: 0;
+    transform: translateX(-70%);
+    border-radius: 20px 20px;
+    padding: 5px 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
+.post:hover{
+    color: black;
+
+}
+article .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: lavender;
+    margin-left: 300px;
+    width: 300px;
+    height: 780px;
+    margin-top: 20px;
+    position: relative;
+}
+.right-side .small{
+        position: absolute;
+        top: 0;
+        transform: translateX(-450%);
+}
+.right-side h2{
+    color: orangered;
+}
+.right-side button{
+        color: whitesmoke;
+        cursor: pointer;
+        background-color: orange;
+        border-radius: 100px;
+        border: 1px solid white;
+        padding: 5px 10px;
+        margin-top: 100px;
+}
+.third button:hover{
+        color: brown;
+        background-color: blanchedalmond;
+
+}
+.banner4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 50px 10px;
+    position: relative;
+
+}
+.banner4 .left-top{
+    border: 1px solid black;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    gap: 50px;
+    width: 700px;
+    height: 2000px;
+
+}
+.left-top .recent{
+    padding-top: 50px;
+    align-self: flex-start;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.left-top .all-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: lavender;
+    height: 300px;
+    width: 500px;
+}
+.all-top .blacktext{
+    color: black;
+    font-weight: bolder;
+}
+.left-top h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: orangered;
+}
+.left-top img{
+    margin-top: 40px;
+}
+.left-top p{
+    background-color: white;
+}
+.banner4 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.banner4 .right-top{
+    border: 1px solid transparent;
+    width: 500px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 5px;
+
+}
+.right-top .advertise{
+    background: url(image11.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.advertise p{
+    color: white;
+    margin-left: 200px;
+}
+.advertise .orangetext{
+    color: orange;
+}
+.right-top .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    width: 300px;
+    margin-left: 100px;
+
+}
+.right-top h1{
+    color: orangered;
+    margin-top: 30px;
+}
+.links .learn{
+    background: url(photo5.png);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.learn h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.links .remote{
+    background: url(photo9.png);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.remote h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.links .tourism{
+    background: url(photo6.png);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tourism h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.links .real{
+    background: url(real-estate.png);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.real h2{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.banner4 .long{
+    border: 1px solid transparent;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 200px;
+    margin-top: 110px;
+
+}
+.long .long-one{
+    background: url(photo7.png);
+    background-size: cover;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.long-one h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.long .long-two{
+    background: url(photo8.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.long-two h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.banner5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: url(wall.jpg);
+    height: 300px;
+    position: relative;
+    margin: 0px 20px;
+
+}
+.banner5 .sub{
+    color: white;
+    font-size: 30px;
+}
+.banner5 .info{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.info input{
+    width: 50%;
+    padding: 15px 60px;
+    background-color: transparent;
+    border:1px solid white;
+    outline: none;
+    font-size: 20px;
+    color: white;
+  
+}
+
+.info input:focus{
+   
+    border-color: orangered;
+}
+.info input::placeholder{
+    color: white;
+}
+.info button{
+    width: fit-content;
+    padding: 13px 40px;
+    background-color: darkorange;
+    color:white;
+    font-size: 25px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+.info button:hover{
+    color: brown;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100px;
+    margin: 0px 20px;
+}
+footer p{
+    margin: 30px 0;
+}
+footer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 30px 0px;
+    gap: 30px;
+
+}
+footer img{
+    width: 30px;
+    cursor: pointer;
+
+}
+footer img:hover{
+    transform: scale(1.3);
+    filter: grayscale(2);
+    
+}
+
+@media(max-width:450px){
+
+
+
+header{
+    height: 70px;
+
+}
+header .top{
+    
+}
+.top span img{
+}
+header h1{
+    
+}
+header nav{
+    
+}
+header nav a{
+    padding: 0px 2px;
+    font-size: 11px;
+}
+nav a:hover{
+}
+main{
+    width: 100%;
+}
+.banner{
+}
+article .top{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left{
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 150px;
+
+}
+.left p{
+}
+
+.right{
+    
+}
+.right p{
+}
+.right button{
+   
+}
+
+.right button:hover{
+   
+
+}
+article .middle{
+    flex-direction: column;
+    
+
+}
+.first{
+    
+}
+.small{
+    
+
+}
+.first h3{
+    
+}
+.first p{
+    
+}
+.first h4{
+    
+}
+.banner{
+    
+
+}
+article .last{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(office2.jpg);
+    margin: 10px 0px;
+    position: relative;
+    gap: 10px;
+}
+.small2{
+}
+.last p{
+    color: white;
+    position: absolute;
+    left: 30%;
+}
+.last button{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: white;
+
+}
+.last button{
+    color: brown;
+    cursor: pointer;
+    background-color: lemonchiffon;
+}
+.last button:hover{
+    color: white;
+    background-color: brown;
+    
+}
+article .third{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0px;
+    gap: 20px;
+    background-color: orange;
+
+}
+.third div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 30px;
+    position: relative;
+    width: 400px;
+}
+.third h1{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.third p{
+    color: rgb(251, 212, 161);
+}
+.third button{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: orange;
+    align-self: flex-end;
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    transform: translateX(-200%);
+}
+.third button:hover{
+    color: brown;
+    background-color: blanchedalmond;
+    
+}
+.third img{
+    width: 200px;
+}
+.banner3{
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+
+}
+article .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 400px;
+    height: 400px;
+    padding: 0px 0px;
+    gap: 0px;
+    padding-right: 5px;
+    margin-top: 50px;
+}
+.left-side .one{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    gap: 30px;
+    margin: 10px 90px;
+    padding: 0px 5px;
+    padding-left: 20px;
+
+    
+}
+.one img{
+    height: 100px;
+}
+
+article .details{
+    width: 500px;
+    padding-left: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid transparent;
+    background-color: lavender;
+    background-position: center center;
+    margin-right: 70px;
+    position: relative;
+    
+
+}
+.details h2{
+    
+
+}
+.details .titcat{
+}
+.titcat input{
+    
+
+}
+.titcat input::placeholder{
+    
+}
+.titcat input:focus{
+}
+.details .type{
+   
+}
+.type input{
+    
+}
+.type input::placeholder{
+}
+.type input:focus{
+}
+.details .upload{
+
+}
+.upload .upload-btn{
+    
+}
+.upload-btn:focus{
+    
+}
+.load:hover{
+    
+}
+.upload .load{
+    
+
+}
+.upload .post{
+    
+}
+.post:hover{
+
+}
+article .right-side{
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 300px;
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+.right-side .small{
+        position: absolute;
+        top: 0;
+        transform: translateX(-630%);
+}
+.right-side h2{
+}
+.right-side button{
+        
+}
+.third button:hover{
+        
+
+}
+.banner4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px 0px;
+    position: relative;
+
+}
+.banner4 .left-top{
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    gap: 50px;
+    height: 2200px;
+
+}
+.left-top .recent{
+    padding-top: 50px;
+    align-self: flex-start;
+    padding-left: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.left-top .all-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: lavender;
+    height: 400px;
+    width: 400px;
+}
+.all-top .blacktext{
+}
+.left-top h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: orangered;
+}
+.left-top img{
+    margin-top: 30px;
+}
+.left-top p{
+    background-color: white;
+}
+.banner4 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.banner4 .right-top{
+    border: 1px solid transparent;
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+.right-top .advertise{
+    background: url(image11.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    margin-left: 6px;
+
+}
+.advertise p{
+    
+}
+.advertise .orangetext{
+}
+.right-top .links{
+    
+    width: 400px;
+    margin-left: 6px;
+
+}
+.right-top h1{
+    color: orangered;
+    margin-top: 30px;
+}
+.links .learn{
+    
+}
+.learn h2{
+    
+}
+.links .remote{
+    
+}
+.remote h2{
+    
+}
+.links .tourism{
+    
+}
+
+.tourism h2{
+   
+}
+.links .real{
+    
+}
+.real h2{
+}
+.banner4 .long{
+    border: 1px solid transparent;
+    width: 498px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+
+}
+.long .long-one{
+    background: url(photo7.png);
+    background-size: cover;
+    height: 450px;
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 6px;
+}
+.long-one h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.long .long-two{
+    background: url(photo8.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+.long-two h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.banner5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: url(wall.jpg);
+    height: 300px;
+    position: relative;
+    margin-top: 900px;
+    margin-left: 10px;
+
+}
+.banner5 .sub{
+    color: white;
+    font-size: 30px;
+}
+.banner5 .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.info input{
+    width: 80%;
+    padding: 10px 40px;
+    background-color: transparent;
+    border:1px solid white;
+    outline: none;
+    font-size: 11px;
+    color: white;
+    outline: none;
+  
+}
+
+.info input:focus{
+   
+    border-color: orangered;
+}
+.info input::placeholder{
+    color: white;
+}
+.info button{
+    width: 100px;
+    padding: 8px 7px;
+    background-color: darkorange;
+    color:white;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+.info button:hover{
+    color: brown;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 50px;
+    margin: 0px 3px;
+}
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 10px;
+    margin: 30px 0;
+}
+footer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 30px 0px;
+    gap: 10px;
+
+}
+footer img{
+    width: 10px;
+    cursor: pointer;
+
+}
+footer img:hover{
+    transform: scale(1.3);
+    filter: grayscale(2);
+
+}
